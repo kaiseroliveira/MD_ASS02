@@ -6,11 +6,10 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-        <com.example.minesweeper.minesweeperBoard
+        <com.example.minesweeper.view.custom.MinesweeperBoardView
             android:id="@+id/boardView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            />
+            android:layout_height="match_parent" />
 
 
         <Button
